@@ -40,3 +40,47 @@ ul {
   flex-shrink: 0;
   color: #758bfd;
 }
+/* section */
+section {
+  background-color: #ddeaf8;
+  padding: 115px 98px;
+}
+h2 {
+  color: #27187f;
+  font-family: Ubuntu;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card_container {
+  width: 100%;
+  display: inline-flex;
+  column-gap: 18px;
+  margin-top: 68px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 51px;
+}
+.cards {
+  width: 400px;
+  background-color: #ffffff;
+  padding: 33px 30px;
+  border-radius: 10px;
+  background: #fff;
+}
+.images {
+  width: calc(100%-60px);
+  height: 188px;
+  border-radius: 10px;
+}
+.same_text {
+  margin-top: 33px;
+  color: #133b3a;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
